@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ship To It - Company Packing List</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="navigation">
+    <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+    <li class="active">Action List</li>
+    <li>Profiles</li>
+    <li>Settings</li>
+  </ul>
+
+  <div class="search">Search the table</div>
+  <table> 
+  
+    <thead>
+    <tbody>
+   <tr><!-- Row 1 --> 
+        <th scope="row">Company's Name</th> 
+        <td colspan="2">Duties For Each Day</td>
+        <td scope="row">Ways To Contact Wendor</td> 
+        <td>Summary The End Of  Week</td>
+        
+     </tr>  
+     <tr> <!-- Row 2 --> 
+       <td colspan="4"> If the office will be closed for an emergency or oter reasons: To send email to all the
+          clients</td>        
+       <td>Cross check on friday</td>
+     </tr>
+     <tr> <!-- Row 3 -->
+          <td rowspan="2">Alpha's solutions </td>
+           <td>Send invoice</td> 
+           <th>Fill In the back end data sheet</th>
+          <td> Email that is on database</td> 
+          <td>Fill in data in the back end</td>
+     </tr>
+      <tr> <!-- Row 4 -->
+        <td>3</td> 
+        <td>Send Invoice</td> 
+        <td> Email that is on database</td> 
+        <td>Fill in data in the back end</td>
+      </tr> 
+      <tr> <!-- Row 5-->
+        <td>Miss Sally's Southern</td> 
+        <td>4</td> 
+        <td>Ship</td>
+        <td> Email Confirmation </td> 
+        <td>Fill in data in the back end</td>
+        </tr> 
+      <tr> <!-- Row 6 --> 
+        <td>Summit Resport</td> 
+        <td>4</td> 
+        <td>Ship</td>
+        <td> Email Confirmation </td> 
+         <td>Fill in data in the back end</td>
+       </tr> 
+       <tr> <!-- Row 7 -->
+          <td>Strike Fitness</td>
+           <td>1</td> 
+           <td>Enter Code</td> 
+           <td> Email Confirmation </td> 
+           <td>Fill in data in the back end</td>
+        </tr>
+        </tbody> 
+  </thead>
+ <tfoot>  
+  <tr> 
+     <td>Total</td>
+     <td>12</td>
+     <th></th>
+     <th></th> 
+     <th></th> 
+     </tr>
+     </tfoot> 
+  </table>
+
+
+</body>
+</html>
