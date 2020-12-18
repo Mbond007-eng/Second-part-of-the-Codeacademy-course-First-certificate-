@@ -5,96 +5,83 @@ Styling with CSS
 
 (create a file as . CSS ) to style the index.html page
 
-table, th, td {
-border: 1px solid black;
-font-family: Arial, sans-serif;
-text-align: center;
+body {
+  background-color: #242f44;
+  color: white; 
+  font-family: #ffffff;
 }
 
-How eventually it looks nested - font -size: 18 px;
-
-ody {
-background: #EEE;
-margin: 0;
-padding: 0;
+header {
+  text-align: center;
+  margin-top: 5px;
 }
 
-/* Navigation */
-
-.navigation {
-box-sizing: border-box;
-background-color: #3587A4;
-overflow: auto;
-padding: 18px 50px;
-position: relative;
-top: 0;
-width: 100%;
-z-index: 999;
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+  font-family: verdana;
 }
 
-ul {
-padding: 0;
-margin: 0;
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
 }
 
-li {
-color: #FFF;
-display: inline-block;
-font-family: 'Oxygen', sans-serif;
-font-size: 16px;
-font-weight: 300;
-letter-spacing: 2px;
-margin: 0;
-padding: 20px 18px 10px 18px;
-text-transform: uppercase;
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
 }
 
-.active {
-color: #88CCF1;
+th {
+  border: 2px solid #8c6b48;
 }
-
-/* Table */
 
 table {
-height: 40%;
-left: 10%;
-margin: 20px auto;
-overflow-y: scroll;
-position: static;
-width: 80%;
+  text-align: center;
+  margin: 20px auto;
 }
 
-thead th {
-background: #88CCF1;
-color: #FFF;
-font-family: 'Lato', sans-serif;
-font-size: 16px;
-font-weight: 100;
-letter-spacing: 2px;
-text-transform: uppercase;
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
 }
 
-tr {
-background: #f4f7f8;
-border-bottom: 1px solid #FFF;
-margin-bottom: 5px;
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: #242f44;
+  z-index: 5;
+}
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #242f44;
 }
 
-th, td {
-font-family: 'Lato', sans-serif;
-font-weight: 400;
-padding: 20px;
-text-align: left;
-width: 33.3333%;
-font-size: 18px;
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
 }
 
-.search {
-background-color: #FFF;
-border: 1px solid #DDD;
-border-radius: 3px;
-color: #AAA;
-padding: 20px;
-margin: 50px auto 0px auto;
-width: 77%;
+
+.left {
+  width: 150px;
+  border-left: 2px solid red;
+}
+.right { 
+  width: 180px;
+  border-right: 2px  solid green;
 }
