@@ -1,0 +1,177 @@
+1. 
+In index.html, inside of the <div> element that has the attribute class with a value of "container", create a new <table> element.  
+  >>>>
+div class="container">
+     <table>
+         <thead> 
+         </thead>
+     </table> 
+     
+     2.  
+Inside of the <table> element, add a section for table headings using <thead>.
+
+Then, add two rows inside of it using the table row element.
+     >>>>
+         <thead> 
+         </thead> <table>
+         <thead> 
+         </thead>
+     </table> 
+     
+     
+     3.  
+  Inside the first table row element, from task 2, add a table heading element.
+
+Inside of that, include an <h1> with the following text: Wine Festival Schedule.   
+>>>
+ <table>
+         <thead> 
+             <tr> 
+           <th>
+              <h1> Wine Festival</h1>
+             </th> 
+           <th></th> 
+             </tr>
+         </thead>  
+       </table> 
+       
+       
+    4.
+    Inside the second table row element, from task 2, add two <th>s:
+
+In the first, add an <h2> that says Time.
+
+In the second, add an <h2> that says Event. 
+
+>>>>
+ 
+ 
+  <div class="container">
+     <table>
+         <thead> 
+             <tr> 
+           <th>
+              <h1> Wine Festival Schedule</h1>
+               <h2>Time</h2>
+          </th> 
+           <th>
+               <h2>Event</h2> 
+           </th> 
+           
+             </tr>
+         </thead>  
+       </table> 
+  </div>
+  
+  5. 
+     
+You may notice that “Wine Festival Schedule” does not stretch across the entire table. Let’s fix that!
+
+In the opening <th> tag of this element, add colspan="2". 
+     
+    <th colspan="2">
+              <h1> Wine Festival Schedule</h1>
+           </th>
+    
+    >>>> so in togeter it will look like thi= 
+          <table>
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>Wine Festival Schedule</h1>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <h2>Time</h2>
+      </th>
+      <th>
+        <h2>Event</h2>
+      </th>
+    </tr>
+  </thead>
+</table> 
+         
+   6.     
+Below the closing </thead> tag, section off the table using the table body element.
+    
+     outcome =  
+   >>>>
+      <div class="container">
+     <table>
+       </thead>
+             <tr>
+          <th colspan="2"> 
+              <h1> Wine Festival Schedule</h1>
+           </th>
+           </tr>
+         <tr>
+              <th>
+               <h2>Time</h2>
+         </th> 
+           <th>
+               <h2>Event</h2> 
+           </th> 
+             </tr>
+         <thead>
+           <tbody>
+       </tbody>
+       </table> 
+  </div>
+  
+  7.   
+        Inside of the table body you created in the previous task, create 5 rows using the table row element.
+         
+          outcome=
+         >>>>> 
+            <tbody>
+               <tr>  </tr>
+               <tr> </tr>
+               <tr> </tr>
+               <tr> </tr>
+               <tr> </tr> 
+        </tbody> 
+        
+        8.  
+           
+Inside each row, create two cells using the table data element.
+
+The first table data in each row should have the attribute class with the value "left".
+  outcome 
+  >>>>>>    
+         <tr>
+  <td class="left"> ... </td>
+  <td> ... </td>
+</tr>
+   How it looks in whole together entire code? 
+  <tbody>
+  <tr>
+    <td class="left"> ... </td>
+    <td> ... </td>
+  </tr>
+  <tr>
+    <td class="left"> ... </td>
+    <td> ... </td>
+  </tr>
+  <tr>
+    <td class="left"> ... </td>
+    <td> ... </td>
+  </tr>
+  <tr>
+    <td class="left"> ... </td>
+    <td> ... </td>
+  </tr>
+  <tr>
+    <td class="left"> ... </td>
+    <td> ... </td>
+  </tr>
+</tbody>
+    
+     9.   
+Inside each of the 5 <td class="left"> elements, add <h3> elements that include the times of the events:
+           
+       
+     
+    
+    
+    
